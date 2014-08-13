@@ -23,10 +23,8 @@ for filename in os.listdir(os.getcwd()+"/data"):
 
 
 			counter+=1
-
-print(result) 
-sorted_result = sorted(result.iteritems(), key=lambda sapline: sapline[1], reverse=True)
-print(sorted_result)
+ 
+sorted_result = sorted(result.items(), key=lambda sapline_with_occurrences: sapline_with_occurrences[1], reverse=True)
 
 with open ("data/output_file.csv", 'w', encoding='utf8') as f:
 	for sapline, count in sorted_result:
