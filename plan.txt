@@ -1,0 +1,8 @@
+für alle dateien in ordner
+  für jede zeile in datei
+    suche --
+    nächste zeile
+    anzahl = 3. Zahl in Zeile
+    result[wort aus nächster zeile]=zahl
+    
+    
